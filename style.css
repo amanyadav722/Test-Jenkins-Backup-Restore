@@ -1,0 +1,52 @@
+input, select, textarea {
+    width: 150px;
+    font-family:inherit;
+    font-size: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input :focus {
+    background-color: #abebc6;
+}
+
+/*
+
+input, button {
+    margin: 10px;
+}
+
+#styled input [type="submit"]:focus, #styled button[type="submit"]:focus {
+    border: 2px solid green;
+}
+
+#styled input [type="submit"]:active, #styled button[type="submit"]:active {
+    background-color: blue;
+}
+
+input [type="text"], input [type="url"], input [type="email"], 
+input [type="tel"], input [type="password"], input [type="search"],
+input [type="number"], input [type="date"], input [type="time"], 
+textarea {
+    width: 12em;
+    padding: 5px;
+    margin: 10px 10px 10px 0;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+
+input [type="poem"]{
+    width: 20em;
+}
+
+
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+*/

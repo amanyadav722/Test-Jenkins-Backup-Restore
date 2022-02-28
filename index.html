@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>About us!</h1>
+<form id="questions" method="POST" action="" name="questions">
+    <input type="text" name="name" id="name"><label for="name">Name</label><br><br>
+    <input type="email" name="email" id="email" multiple><label for="email">E-mail</label><br><br>
+    <input type="website" name="website" id="website" multiple><label for="website">Website</label><br><br>
+    <input type="number" name="number" id="number" step="any" required><label for="number">Number</label><br><br>
+    <input type="date" name="birthdate" id="birthdate" min="2017-01-27" max="2021-02-27"><label for="birthdate">Birthday</label><br><br>
+    <input type="time" name="time" id="time" step="1800"><label for="time">Time</label><br><br>
+    <input type="tel" name="phone" id="phone"><label for="phone">Phone Number</label><br><br>
+
+
+    <!--Radio buttons-->
+    <fieldset>
+    <legend>What is your favourite color?</legend>
+
+
+    <input type="radio" name="favcolor" value="blue" id="blue"> <label for="blue">Blue</label><br><br>
+    <input type="radio" name="favcolor" value="green" id="green" checked> <label for="green">Green</label><br><br>
+    <input type="radio" name="favcolor" value="red" id="red"> <label for="red">Red</label><br><br>
+    
+    </fieldset>
+    <br>
+
+    <label for="pizza">What is your favourite pizza topping?</label>
+    <select name="pizza" id="pizza" size="7">
+        <optgroup label="Veggies">
+          <option value="mushrooms">mushroom</option>
+          <option value="onions">onions</option>
+        </optgroup>
+        <optgroup label="meat-items">
+          <option value="pepperoni">pepperoni</option>
+          <option value="sausage">sausage</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <br><br><br>
+
+    <label for="poem">Write a poem!</label>
+    <textarea id="poem" name="poem"></textarea><br><br>
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color"><br>
+
+    <label for="resume">Upload your resume!</label>
+    <input type="file" name="resume" id="resume"><br><br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><br><br>
+    <input type="range" min="1" max="10" step="1"><br><br>
+    <label for="search">Search<input type="search" name="search" id="search"><br>
+    </label><br><br>
+    <input type="reset" value="Reset"><br> <br>
+    <button type="submit">Place <strong>Order</strong> </button><br><br>
+    <input type="image" src="bird.jpeg" alt="bird" width="190"><br><br>
+
+    <input type="submit">
+
+
+</form>
+</body>
+</html>
